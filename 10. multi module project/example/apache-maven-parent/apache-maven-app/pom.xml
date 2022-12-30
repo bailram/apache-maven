@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>bailram</groupId>
+        <artifactId>apache-maven-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>apache-maven-app</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>bailram</groupId>
+            <artifactId>apache-maven-data</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>

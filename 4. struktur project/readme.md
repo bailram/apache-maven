@@ -1,0 +1,13 @@
+### Struktur Project
+- belajar-maven
+    - src
+        - main 
+            - java
+                - com.bailram
+                    - App
+        - test
+            - java
+                - com.bailram
+                    - AppTest
+    - target
+    - pom.xml
